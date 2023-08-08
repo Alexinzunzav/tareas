@@ -128,15 +128,7 @@ section {
 
     }
 
-    #contador-tareas {
-        font-family: $primary-font;
-        font-weight: map-get($font-weights, regular);
-        font-size: map-get($font-size, sm);
-        color: $body-text;
-        text-align: center;
-        margin: 2.5rem 0rem;
-    }
-
+    
 
     
 }
@@ -201,14 +193,42 @@ ul {
 
         h1 {
             height: auto;
-            margin: 3rem 0rem;
+            margin: 1rem 0rem;
             font-family: $primary-font;
             color: $body-text;
-            font-size: map-get($font-size, lg);
+            font-size: 2rem;
             font-weight: map-get($font-weights, bold);
             line-height: 4rem;
             text-align: center;
         }
+
+        #input-tarea {
+            width: 100%;
+            margin-right: 0rem;
+            padding: 1rem 1.5rem;
+            border-radius: 3rem 0rem 0rem 3rem ;
+            border-style: none;
+            font-family: $primary-font;
+            color: $body-text;
+            background-color: $background2;
+            font-size: map-get($font-size, sm);
+            font-weight: map-get($font-weights, regular);
+        }
+
+        #agregar-tarea {
+            width: auto;
+            background-color: $accent;
+            padding: 1rem 1.5rem;
+            border-radius: 0rem 3rem 3rem 0rem;
+            border-style: none;
+            font-family: $primary-font;
+            color: $body-text2;
+            font-size: map-get($font-size, sm);
+            font-weight: map-get($font-weights, medium);
+            cursor: pointer;
+    
+        }
+        
         
     }
 }
